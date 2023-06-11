@@ -11,3 +11,6 @@ def divide(a: float, b: float) -> Union[float, str]:
         return a / b
     except ZeroDivisionError:
         return "Division by zero not allowed." 
+
+def just_because():
+    print("bet you weren't expecting this turn of events!")
